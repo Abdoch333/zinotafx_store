@@ -19,5 +19,25 @@ const products = [
         },
         sizes: ["40", "41", "42", "43", "44"],
         colors: ["#0000FF", "#000000", "#808080"]
+    },
+    {
+        id: 2,
+        name: "صندل عصري مريح",
+        category: "shoes",
+        price: 280,
+        images: [
+            "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/fcc2d21e-239c-4844-800f-0c051d95cdcf.png",
+            "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/40b827e6-d0e1-4281-b533-b0ae3fca2e87.png"
+        ],
+        tag: "جديد",
+        type: "new",
+        desc: "صندل عصري بتصميم عملي ومريح، يتميز بأربطة قابلة للتعديل ونعل متين يوفر الراحة طوال اليوم.",
+        specs: {
+            "المادة": "مواد صناعية عالية الجودة",
+            "المقاسات": "40, 41, 42, 43, 44",
+            "الستايل": "ستايلين متاحين"
+        },
+        sizes: ["40", "41", "42", "43", "44"],
+        colors: ["#000000"]
     }
 ];
