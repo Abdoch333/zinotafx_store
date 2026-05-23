@@ -24,7 +24,7 @@ const products = [
         id: 2,
         name: "صندل عصري مريح",
         category: "shoes",
-        price: 280,
+        price: 2700,
         images: [
             "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/fcc2d21e-239c-4844-800f-0c051d95cdcf.png",
             "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/40b827e6-d0e1-4281-b533-b0ae3fca2e87.png"
@@ -44,7 +44,7 @@ const products = [
         id: 3,
         name: "طقم كاجوال عصري",
         category: "clothing",
-        price: 380,
+        price: 3800,
         images: [
             "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/93010cbb-a05e-41e7-bae2-ad84ae699603.jpg",
             "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/5352efce-9089-4f61-9bcd-7b435dce9646.jpg",
@@ -59,6 +59,6 @@ const products = [
             "الألوان": "3 ألوان متاحة"
         },
         sizes: ["M", "L", "XL", "2XL", "3XL"],
-        colors: ["#000000", "#FFFFFF", "#808080"] // ألوان افتراضية (أسود، أبيض، رمادي) - يمكنك تعديلها
+        colors: ["#000000", "#FFFFFF", "#A19088"] // ألوان افتراضية (أسود، أبيض، رمادي) - يمكنك تعديلها
     }
 ];
