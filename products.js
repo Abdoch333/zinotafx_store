@@ -39,5 +39,26 @@ const products = [
         },
         sizes: ["40", "41", "42", "43", "44"],
         colors: ["#000000"]
+    },
+    {
+        id: 3,
+        name: "طقم كاجوال عصري",
+        category: "clothing",
+        price: 380,
+        images: [
+            "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/93010cbb-a05e-41e7-bae2-ad84ae699603.jpg",
+            "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/5352efce-9089-4f61-9bcd-7b435dce9646.jpg",
+            "https://hsxmoiojpzgjdtpprylz.supabase.co/storage/v1/object/public/images/c3c391c0-ba2e-4ecd-94b7-5cd908b0902d.jpg"
+        ],
+        tag: "جديد",
+        type: "new",
+        desc: "طقم ملابس كاجوال بتصميم عصري وأنيق، مصنوع من قماش مريح عالي الجودة، مثالي للإطلالات اليومية المتميزة.",
+        specs: {
+            "المادة": "قطن مريح عالي الجودة",
+            "المقاسات": "M, L, XL, 2XL, 3XL",
+            "الألوان": "3 ألوان متاحة"
+        },
+        sizes: ["M", "L", "XL", "2XL", "3XL"],
+        colors: ["#000000", "#FFFFFF", "#808080"] // ألوان افتراضية (أسود، أبيض، رمادي) - يمكنك تعديلها
     }
 ];
